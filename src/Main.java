@@ -1,5 +1,3 @@
-import climbStairs.ClimbStairsMemo;
-
 import java.util.Scanner;
 
 public class Main {
@@ -11,7 +9,7 @@ public class Main {
         String next = scanner.nextLine();
         while (!next.equals("exit")) {
             try {
-                int n = Integer.valueOf(next);
+                int n = Integer.parseInt(next);
                 System.out.print("for n=" + n + " ");
 
                 ClimbStairsContext context = new ClimbStairsContext();
